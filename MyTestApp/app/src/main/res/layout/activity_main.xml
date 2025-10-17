@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="0dp"
+    android:paddingTop="0dp"
+    android:paddingRight="0dp"
+    android:paddingBottom="0dp"
+    android:textAlignment="textEnd"
+    android:textDirection="firstStrongRtl"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8BC34A"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/textview"
+
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/eight_ball_launch_icon_master" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="38dp"
+        android:layout_centerHorizontal="true"
+        android:background="#3F51B5"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="@color/white" />
+
+
+
+</RelativeLayout>
+
