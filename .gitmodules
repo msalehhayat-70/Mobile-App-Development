@@ -1,0 +1,7 @@
+[submodule "counter-and-swapping-activities"]
+path = counter-and-swapping-activities
+url = https://github.com/msalehhayat-70/counter-and-swapping-activities.git
+
+[submodule "signuppage"]
+path = signuppage
+url = https://github.com/msalehhayat-70/signuppage.git
